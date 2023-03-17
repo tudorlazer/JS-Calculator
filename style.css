@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.line{
+display: flex;
+justify-content: center;
+
+}
+
+
+ button{
+width: 2.3em;
+height: 2.3em;
+font-size: 2.5em;
+border: solid 0.03em #CFCFCF; 
+color: rgb(66, 66, 66);
+background-color: white;
+font-family: 'Montserrat', sans-serif;
+ }
+
+
+button:hover{
+  background: #CFCFCF;
+  cursor: pointer;
+}
+
+
+ body{
+  background-color: #6b9acf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
+
+ #erase{
+  width: 6.9em;
+ }
+
+
+
+ #container{
+  width: fit-content;
+ }
+
+
+
+ .specialKeys{
+background-color: #eeeeee;
+ }
+ .specialKeys:hover{
+  background-color: #9c9c9c;
+ }
+
+
+ #equal{
+  background-color: #ffa856;
+ }
+ #equal:hover{
+  background-color: #ff9029;
+ }
+
+
+ .result{
+  background-color: white;
+  height: 4em;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1em;
+  font-size: 1.5em;
+ }
